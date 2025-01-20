@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get ('/', (req, res) => {
-    res.send('Hello World! klokken er ' + new Date().toLocaleDateString());
+    res.send('Hello World! klokken er ' + new TimeRanges().toLocaleTimeString());
 });
 
 app.listen(3000, () => {
