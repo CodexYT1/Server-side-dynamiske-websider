@@ -4,6 +4,7 @@
   "description": "NodeJs Desc",
   "main": "index.js",
   "scripts": {
+    "serve": "node Index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
