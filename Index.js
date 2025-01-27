@@ -12,7 +12,7 @@ app.get('/her', (req, res) => {
             <li>Jonas</li>
             <li>Benjamin</li>
             <li>Herman<li>
-        <ul>
+        </ul>
     `);
 });
 
