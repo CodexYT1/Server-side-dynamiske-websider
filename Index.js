@@ -8,7 +8,11 @@ app.get ('/', (req, res) => {
 app.get('/her', (req, res) => {
     res.send(`
         <h1>Her er en overskrift</h1>
-        <p>Og her er en paragraf</p>
+        <ul>
+            <li>Jonas</li>
+            <li>Benjamin</li>
+            <li>Herman<li>
+        <ul>
     `);
 });
 
