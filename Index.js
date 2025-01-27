@@ -11,7 +11,7 @@ app.get('/her', (req, res) => {
         <ul>
             <li>Jonas</li>
             <li>Benjamin</li>
-            <li>Herman<li>
+            <li>Herman</li>
         </ul>
     `);
 });
